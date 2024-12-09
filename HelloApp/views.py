@@ -9,7 +9,7 @@ from django.http import HttpResponse
 def homepage(request):  # This is name of the function. You can call it anything, independent of the url
                         # from where it is being triggered
 
-    return HttpResponse ("This is my home page")
+    return HttpResponse ("This is my new home page")
 
 
 
