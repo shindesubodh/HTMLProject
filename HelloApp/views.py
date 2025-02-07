@@ -9,7 +9,15 @@ from django.http import HttpResponse
 def homepage(request):  # This is name of the function. You can call it anything, independent of the url
                         # from where it is being triggered
 
-    return HttpResponse ("This is my new home page")
+    num1, num2, num3 = 1,2,3
+    print(num1, num2, num3)
+    
+
+
+   # return HttpResponse ("This is my new home page")
+    return render(request, 'HelloApp/index.html')
+
+
 
 
 
